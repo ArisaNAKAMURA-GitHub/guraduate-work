@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "..\\day3"
+		},
+		{
+			"path": "..\\day4"
+		},
+		{
+			"path": "..\\day5"
+		},
+		{
+			"path": "..\\BOOTSTRAP"
+		},
+		{
+			"path": "..\\day6"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\day7"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "卒業制作"
+	}
+}
