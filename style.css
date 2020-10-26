@@ -1,14 +1,200 @@
-header{
-    background-color: darkgreen;
-    color: darkgrey;
+body>header{
+  height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px 20px;
+    background-color: rgb(253, 222, 227);
+  }
+
+
+
+
+.header-left{
+  color: navy;
+}
+
+
+.header-right{
+  color: navy;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+}
+
+.header-right>.nav>li{
+  margin:10px;
+} 
+
+.header-right>.nav>li>a{
+  color: navy;
+}
+
+
+.main1{
+  height: 150px;
+  padding: 10px;
+  background-image: url(img/appearance.jpg) ;
+  background-color: rgb(216, 203, 205);
+  background-blend-mode: soft-light;
+  color: navy;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+h1{
+  font-family: 'Kosugi Maru', sans-serif;
+  }
+
+.main2{
+    display: flex;
+    color: navy;
+}
+
+#leftcontainer{
+    width: 30%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    
+    justify-content: space-around;
+   
+}
+
+.begginer .appointment{
+   display: flex;
+   flex-direction: column;
+}
+
+.img{
+  width: 50px;
+  height: 50px;
+}
+
+.sentence{
+  border: 1px solid navy;
+  width: 100%;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+
+}
+.sentence:hover {
+  color:white;
+  background-color:navy;
+}
+
+
+
+.time {
+    border-collapse: collapse;
+    color: navy;
+}
+
+
+  .time th {
+    border-top: 1px solid navy;
+  }
+  .time th, .time td {
+    padding: 1px 1px;
+    text-align: center;
+    /* ２番目以降の線 */
+    border-bottom: 1px solid navy;
+  }
+  
+  /* 上段の背景色 */
+  .time th {
+    background:rgb(233, 238, 252);
+    font-weight: bold;
+  }
+  .sat {
+    color: #3db2da;
+  }
+    .sun {
+    color: #e66a6a;
+  }
+.map{
+  display: flex;
+  width: 15%;
+  height: 30px;
+  margin: 10px;
+}
+
+
+#rightcontainer{
+  width: 70%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.doctor{
+  width: 100px;
+  height: 100px;
+}
+
+.doctor-introduction{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.doctor-introduction>.information>a{
+  color: navy;
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.doctor-introduction{
+  margin: 30px 30px;
+}
+
+
+.clinical-department{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#card1, #card2, #card3{
+  width: 30%;
+  color: navy;
+} 
+
+.card-title, .btn-btn-primary{
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.btn-btn-primary{
+  border:pink1px solid;
+  color: white;
+  background-color: pink;
+  border-radius: 20%;
 }
 
 
 
 footer{
-    background-color: rgb(10, 56, 10);
-    color: darkgrey;
-    text-align: center;
+  color: navy;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(253, 222, 227);
+  margin: 0%;
+}
+
+footer>a{
+  color: navy;
 }
